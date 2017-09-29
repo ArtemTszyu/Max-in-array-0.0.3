@@ -27,7 +27,7 @@ int main()
    if( read_numbers( array1 ) && read_numbers( array2 ) ) {
        for (int i=0; i<10; i++) {
             for (int k=i; k<10; k++) {
-                if (max < array1[i]+array2[j]) max = array1[i]+array2[k];
+                if (max < array1[i]+array2[k]) max = array1[i]+array2[k];
                 }
        }
        cout << max;
